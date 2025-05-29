@@ -280,7 +280,7 @@ section {
 .arrow {
     position: absolute;
     right: -5rem;
-    bottom: 2rem;
+    bottom: 2.5rem;
 }
 
 .details-containers {
@@ -302,6 +302,10 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
+}
+
+#experience-container {
+    display: none;
 }
 
 /* EXPERIENCE SECTION */
@@ -393,7 +397,7 @@ article .icon {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 05 rem;
+    gap: 0.5rem;
     margin: 1rem;
 }
 
@@ -403,7 +407,10 @@ article .icon {
 
 .contact-icon {
     cursor: default;
-    height: 2rem;
+}
+
+.email-icon {
+    height: 2.5rem;
 }
 
 /* FOOTER */
